@@ -1,0 +1,155 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1672816786" file="Z:\HTC\PROJECT TEST RECORDS - HTC\CrossRoad\autotracking demo\EMScan.prj" location="Z:\HTC\PROJECT TEST RECORDS - HTC\CrossRoad\autotracking demo" name="EMScan" preferred-package-location="Z:\HTC\PROJECT TEST RECORDS - HTC\CrossRoad\autotracking demo\EMScan\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>EMScan</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\EMScan\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\EMScan\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\EMScan\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\EMScan\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="IP Cameras" enabled="true" name="IP Camera" product="MATLAB"/&gt;</item>
+    </param.support.packages>
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\main.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\lib</file>
+      <file>${PROJECT_ROOT}\objs</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}\userdata</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>C:\MATLAB\SupportPackages\R2015b\ipcamera\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\IpcamController.m</file>
+      <file>C:\MATLAB\SupportPackages\R2015b\ipcamera\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\PreviewController.m</file>
+      <file>C:\MATLAB\SupportPackages\R2015b\ipcamera\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\Utility.m</file>
+      <file>C:\MATLAB\SupportPackages\R2015b\ipcamera\toolbox\matlab\hardware\supportpackages\ipcamera\ipcam.m</file>
+      <file>C:\MATLAB\SupportPackages\R2015b\ipcamera\toolbox\matlab\hardware\supportpackages\ipcamera\registerrealtimecataloglocation.mexw64</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\+mixin\Container.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\+mixin\Flex.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\+mixin\Panel.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Box.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\ButtonBox.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\calcPixelSizes.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\ChildEvent.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\ChildObserver.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Container.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Divider.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\FigureData.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\FigureObserver.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\HBox.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\HBoxFlex.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\HButtonBox.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\loadIcon.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Node.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Panel.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\PointerManager.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\pvchk.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\SelectionData.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\TabPanel.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\VBox.m</file>
+      <file>C:\Users\dvdenv\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\VBoxFlex.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\EMScan\for_testing" name="splash.png" optional="false">Z:\HTC\PROJECT TEST RECORDS - HTC\CrossRoad\autotracking demo\EMScan\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\EMScan\for_testing" name="readme.txt" optional="true">Z:\HTC\PROJECT TEST RECORDS - HTC\CrossRoad\autotracking demo\EMScan\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\EMScan\for_testing" name="EMScan.exe" optional="false">Z:\HTC\PROJECT TEST RECORDS - HTC\CrossRoad\autotracking demo\EMScan\for_testing\EMScan.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
